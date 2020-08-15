@@ -1,0 +1,412 @@
+
+ /*Master Stylesheet
+ ---------------------
+ Template Name:Minimo | | HTML Template
+ Author: Abdul Aziz
+ Author url:
+ Descriptin: Minimal Blog Template
+ Version:1.0.0
+ Tag: blog, agency
+
+           Table of content
+           ==================
+
+1. Typography
+2.
+3.
+4.
+5.
+6.
+
+/*........................
+       TYPOGRAPHY              
+........................*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Ubuntu:wght@300&display=swap');
+
+/*font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+body{
+
+	margin:0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+    font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 35px;
+	color: #626262;
+}
+
+h4{
+font-family: 'Ubuntu', sans-serif;
+font-weight: 300;
+color: #626262;
+
+}
+
+p{
+font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 25px;
+	color: #626262;
+}
+
+a{
+font-family: 'Playfair Display', serif;
+	color: #626262;
+
+}
+
+/*................................
+       HEADER STYLE START HERE              
+...............................*/
+header {
+	padding: 40px 0;
+}
+
+.container{
+	width:90%;
+	margin: 0 auto;
+}
+
+.navbar{
+display: flex;
+justify-content: space-between;
+}
+
+nav{}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+
+nav ul li a {
+	padding: 0 60px;
+	text-decoration: none;
+	text-transform: capitalize;
+
+
+}
+
+nav ul li:last-child a {
+	padding-right: 0;
+
+}
+
+
+nav ul li a:hover{
+	color: #000000;
+	transition: .3s all ease-in-out;
+}
+/*................................
+       HEADER STYLE END HERE              
+...............................*/
+
+/*................................
+       BANNER STYLE START HERE              
+...............................*/
+
+.banner {
+	background-image: url('../Images/banner-min.jpg');
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/*................................
+       BANNER STYLE END HERE              
+...............................*/
+
+
+
+
+/*................................
+       FIRST POST STYLE START HERE              
+...............................*/
+
+.first-post{
+	padding: 100px 0;
+}
+
+.sec-container{
+
+	width: 80%;
+	margin: 0 auto;
+}
+
+.catagories h4{
+
+font-size: 14px;
+line-height: 20px;
+text-transform: uppercase; 
+}
+
+.title h2{
+	padding: 30px 0;
+}
+
+
+.comment h4{
+	padding: 30px 0;
+}
+/*................................
+       FIRST POST STYLE START HERE              
+...............................*/
+
+
+/*................................
+      lifestyle POST STYLE START HERE              
+...............................*/
+
+#lifestyle{
+
+	padding: 50px 0;
+}
+
+
+.lifestyle-post{
+	display: flex;
+	justify-content: space-between;
+}
+.lifestyle-post .post{
+width: 45%;
+
+}
+.post .thumbnail img {
+	width: 100%;
+}
+.lifestyle-post .post .catagories {
+
+	padding:30px 0 20px;
+}
+
+.lifestyle-post .post .title h2 {
+
+	padding:0;
+}
+
+.lifestyle-post .post .content p {
+
+	margin:0;
+	padding: 20px 0 30px;
+}
+
+/*....................................
+      lifestyle POST STYLE EEND HERE              
+........................................*/
+
+
+
+	/*=============================
+	  NEWSLETTER STYLE START HERE
+	=============================
+ */
+
+#newsletter{
+
+	background-color: #f0f0f0;
+	padding: 75px 0;
+}
+.newsletter{
+	margin:0 auto;
+	text-align: center;
+}
+
+
+.newsletter .title h2{
+	color: #333;
+	font-weight: 700;
+}
+
+.newsletter form{
+width: 410px;
+margin: 0 auto;
+}
+
+input[type="email"]{
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #000;
+	padding: 15px 10px 10px 10px;
+	background-color: transparent;
+
+}
+
+input[type ="email"]::placeholder {
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	line-height: 20px;
+    color:#626262;
+
+}
+
+input[type="email"]:focus {
+	outline: 0;
+
+
+}
+form{
+	position: relative;
+}
+
+
+.form-button{
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	top:0px;
+	right: -5px;
+}
+
+.form-button:focus{
+	outline: 0;
+}
+
+
+.form-button img{
+
+	background: transparent;
+}
+
+ 
+	/*=============================
+	  NEWSLETTER STYLE END  HERE
+	=============================
+*/
+
+
+/*
+	=============================
+	   load more style start  here
+	============================*/
+
+#load-more{
+
+	padding: 100px 0 400px;
+}
+
+
+.load-more{
+	text-align: center;
+}
+
+
+.load-more button{
+
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	line-height: 20px;
+    color:#626262;
+    text-transform: capitalize;
+    border: 1px solid #626262;
+    background-color: transparent;
+    padding: 0;
+    padding: 20px 35px;
+    cursor: pointer;
+
+}
+
+.load-more button:hover{
+	color: #000;
+	border-color: #000;
+	transition: 3s all ease-in-out;
+}
+
+.load-more button:focus{
+	outline:0;
+}
+
+/*
+	=============================
+	   load more style end  here
+	============================*/
+
+/*
+	=============================
+	   Footer style start  here
+	============================*/
+
+
+footer{
+
+	background-color: #f0f0f0;
+	padding: 40px 0;
+}
+
+
+.footer{
+
+	display: flex;
+}
+
+.legal, .social{
+
+width: 50%;
+}
+
+
+.legal ul li{
+list-style: none;
+display: inline-block;
+}
+
+.legal ul{
+
+	padding: 0;
+}
+
+.legal ul li a{
+font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	line-height: 20px;
+    color:#000;
+    text-decoration: none;
+    padding-right: 15px;
+}
+.social ul li{
+
+list-style: none;
+display: inline-block;
+
+}
+
+.social{
+
+	text-align: right;
+
+}
+
+.social ul {
+	padding: 0;
+}
+
+.social ul li a{
+
+font-size: 16px;
+color: #626262;
+padding-left:15px;
+
+
+}
+
+.social ul li:first-child{
+	font-size: 14px;
+	color: #000;
+}
+
+
+
+/*
+	=============================
+	   Footer style end  here
+	============================*/
+
+
